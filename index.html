@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>Invaders Must Die</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.0.15/css/bulma.min.css">
+<style type="text/css">
+  #score_area span {
+    ;
+  }
+</style>
+</head>
+<body>
+  
+<div class="hero is-dark is-bold is-fullheight">
+  <div class="hero-content">
+    <div class="container">
+      <h1 class="title is-1">INVADERS MUST DIE</h1>
+      <div id="score_area" class="subtitle is-2">
+        <span style="color: #9d436e;">score:&nbsp;</span>
+        <span id="score" style="color: #FF69B4;">0000</span>
+      </div>
+      <canvas id="game_window" width="600" height="400"></canvas>
+    </div>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="game.js"></script>
+</body>
+</html>
